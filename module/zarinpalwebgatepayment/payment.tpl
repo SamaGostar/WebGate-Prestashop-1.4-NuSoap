@@ -1,12 +1,12 @@
 <!-- Zarinpal Payment Module -->
 <p class="payment_module">
-    <a href="javascript:$('#zarinpalpayment_form').submit();" title="{l s='Pay by Zarinpal' mod='zarinpalpayment'}">
-        <img src="modules/zarinpalpayment/zarinpal.png" alt="{l s='Pay by Zarinpal' mod='zarinpalpayment'}" />
-		{l s='Pay by Debit/Credit card through Zarinpal Online Merchent.' mod='zarinpalpayment'}
+    <a href="javascript:$('#zarinpalwebgatepayment_form').submit();" title="{l s='Pay by Zarinpal' mod='zarinpalwebgatepayment'}">
+        <img src="modules/zarinpalwebgatepayment/zarinpal.png" alt="{l s='Pay by Zarinpal' mod='zarinpalwebgatepayment'}" />
+		{l s='Pay by Debit/Credit card through Zarinpal Online Merchent.' mod='zarinpalwebgatepayment'}
 <br>
 </a></p>
-<a class="exclusive_large" href="javascript:$('#zarinpalpayment_form').submit();" title="{l s='Pay by Zarinpal' mod='zarinpalpayment'}">{l s='Pay by Zarinpal' mod='zarinpalpayment'}</a>
-<form action="modules/zarinpalpayment/payment.php" method="post" id="zarinpalpayment_form" class="hidden">
+<a class="exclusive_large" href="javascript:$('#zarinpalwebgatepayment_form').submit();" title="{l s='Pay by Zarinpal' mod='zarinpalwebgatepayment'}">{l s='Pay by Zarinpal' mod='zarinpalwebgatepayment'}</a>
+<form action="modules/zarinpalwebgatepayment/payment.php" method="post" id="zarinpalwebgatepayment_form" class="hidden">
     <input type="hidden" name="orderId" value="{$orderId}" />
 </form>
 <br><br>
