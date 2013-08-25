@@ -38,7 +38,10 @@ include_once(dirname(__FILE__).'/zarinpalwebgatepayment.php');
         setcookie("PurchaseAmount","", -1);
  		
         Tools::redirect('history.php');
+	}else{
+		'ERR: '.$redult;
 	}
+
 
 include_once(dirname(__FILE__).'/../../footer.php');		
 
